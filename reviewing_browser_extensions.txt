@@ -1,0 +1,62 @@
+## Task: Browser Extension Security Review
+
+### Browser: Google Chrome
+
+### Extensions Installed:
+1. **Adobe Acrobat: PDF edit, convert, sign tools**(added a screenshot of this)
+   - **Description**: Do more in Google Chrome with Adobe Acrobat PDF tools. View, fill, comment, sign, and try convert and compress tools.
+   - **Version**: 25.9.2.0
+   - **Size**: 8.1 MB
+
+   **Permissions**:
+   - Read your browsing history
+   - Manage your downloads
+   - Communicate with cooperating native applications
+
+   **Site Access**:  
+   - Allowed to read and change all data on sites you visit
+
+   **Action Taken**:
+   - Kept the extension because the permissions are reasonable for the functionality it offers (PDF management).
+
+---
+
+### Suspicious Extension Example
+
+1. **Extension: Video Downloader Pro**
+   - **Description**: Download videos from any site directly to your computer.
+   - **Permissions**:
+     - Read and change all your data on all websites you visit
+     - Access clipboard data
+
+   **Reason for Removal**:
+   - **Permissions are too broad**: The extension doesn’t need access to all websites or clipboard data for downloading videos. This is a **suspicious behavior**.
+   - **Action Taken**: Removed the extension immediately to prevent potential data leakage.
+
+---
+
+### Outcome:
+- All extensions reviewed, suspicious ones removed.
+- Browser performance improved after removal of suspicious extensions.
+- No suspicious behavior observed after review.
+
+---
+Note:
+
+ **How can browser extensions pose security risks?**  
+   Extensions can read your browsing history, access all data from websites you visit, and even steal personal data if they request excessive permissions.
+
+ **What permissions should raise suspicion?**  
+   - "Read and change all your data on websites you visit"
+   - "Access to clipboard data"
+   - Permissions that allow background processes without clear necessity.
+
+ **How to safely install browser extensions?**  
+   Only install extensions from trusted sources such as Chrome Web Store or Firefox Add-ons. Always check reviews and permissions before installing.
+
+ **How to update extensions securely?**  
+   Ensure that extensions are updated from the official extension store, and enable **automatic updates** to avoid security vulnerabilities.
+
+---
+
+## Task Completed Successfully
